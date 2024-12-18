@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 18 Dec 2024 22:50:16 at http://testphp.vulnweb.com/login.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://testphp.vulnweb.com/login.php -O1 "E:\BlackHat_Couse\Access_web_file\Vulnhub" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:50:33	Error: 	"Not Found" (404) at link testphp.vulnweb.com/privacy.php (from testphp.vulnweb.com/login.php)
+22:50:48	Error: 	"Not Found" (404) at link testphp.vulnweb.com/AJAX/GET (from testphp.vulnweb.com/AJAX/index.php)
+22:50:48	Error: 	"Not Found" (404) at link testphp.vulnweb.com/AJAX/POST (from testphp.vulnweb.com/AJAX/index.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 35 seconds : 79 links scanned, 75 files written (376258 bytes overall) [306445 bytes received at 8755 bytes/sec], 167333 bytes transferred using HTTP compression in 54 files, ratio 44%, 22.0 requests per connection
+(3 errors, 0 warnings, 0 messages)
